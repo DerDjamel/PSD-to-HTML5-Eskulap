@@ -1,0 +1,120 @@
+/*
+* Author : Dermache Med Djamel
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+  text-align: center;
+}
+
+p {
+  line-height: 2
+}
+
+button {
+  background-color: #fff;
+  border-radius: 40px;
+  color: #3695ff;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  color : #3695ff;
+}
+
+.grey-background {
+  background-color: #f1f8ff;
+}
+
+/*
+HEADER SECTION
+*/
+header {
+  background-color: #3695ff;
+  height: 100vh;
+}
+
+.designer-img {
+  margin:0 auto 3rem auto;
+}
+
+.designer-img img{
+  border-radius: 50%;
+  height: 160px;
+  margin-top : 6rem;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+header p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+  line-height: 2
+}
+
+header button{
+    margin-bottom: 10px
+}
+
+/*
+ABOUT ME SECTION
+*/
+
+
+
+/*
+EXPERT IN SECTION
+*/
+#expert-in h3{
+  color : #3695ff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: .6rem auto;
+}
+
+#expert-in p {
+  font-size: 1.3rem
+}
+#expert-in figure {
+  font-size: 7rem;
+  color : #3695ff;
+}
+
+/*
+LASTEST WORK SECTION
+*/
+#latest-work figure img{
+  width: 250px;
+}
+
+/*
+Need a designer SECTION
+*/
+#need-a-designer {
+  background-color: #3695ff;
+  max-height: 100px;
+  padding: 2rem 0;
+  font-size: 3rem;
+  color: #fff;
+}
+
+#need-a-designer p {
+  font-weight: 200;
+  display: inline-block;
+}
